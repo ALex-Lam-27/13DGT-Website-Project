@@ -11,3 +11,7 @@ const destinations = {
             "Walk straight towards Administration.",
 
             "Continue past Student Reception.",
+
+            "Walk past the Careers Hub.",
+
+            "Continue until you reach the Library."
