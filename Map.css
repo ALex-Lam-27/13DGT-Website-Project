@@ -26,3 +26,14 @@
 }
 
 
+
+/* ===========================
+   HEADER
+=========================== */
+
+.nav_bar {
+    background: rgb(204, 204, 204);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
