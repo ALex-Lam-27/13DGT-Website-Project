@@ -15,3 +15,17 @@ const destinations = {
             "Walk past the Careers Hub.",
 
             "Continue until you reach the Library."
+
+        ]
+
+    },
+
+    science: {
+
+        name: "Science Faculty",
+
+        directions: [
+
+            "Start at the Main Entrance.",
+
+            "Walk straight towards Administration.",
