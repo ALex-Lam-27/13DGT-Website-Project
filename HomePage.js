@@ -12,3 +12,16 @@ function showSlide(index){
     dots.forEach(dot =>
         dot.classList.remove("active-dot")
     );
+
+    slides[index].classList.add("active");
+    dots[index].classList.add("active-dot");
+
+    currentSlide = index;
+}
+
+function nextSlide(){
+
+    currentSlide++;
+
+    if(currentSlide >= slides.length){
+        currentSlide = 0;
