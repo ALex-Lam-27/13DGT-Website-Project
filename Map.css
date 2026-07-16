@@ -47,3 +47,7 @@
 }
 
 .navlink_container {
+    display: flex;
+    margin-left: 250px;
+    gap: 120px;
+}
