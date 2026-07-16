@@ -25,3 +25,16 @@ function nextSlide(){
 
     if(currentSlide >= slides.length){
         currentSlide = 0;
+    }
+
+    showSlide(currentSlide);
+}
+
+function prevSlide(){
+
+    currentSlide--;
+
+    if(currentSlide < 0){
+        currentSlide = slides.length - 1;
+    }
+
