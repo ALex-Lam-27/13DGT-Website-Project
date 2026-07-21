@@ -38,3 +38,11 @@ function prevSlide(){
         currentSlide = slides.length - 1;
     }
 
+    showSlide(currentSlide);
+}
+
+document.querySelector(".next").addEventListener("click", nextSlide);
+
+document.querySelector(".prev").addEventListener("click", prevSlide);
+
+setInterval(nextSlide,6000);
