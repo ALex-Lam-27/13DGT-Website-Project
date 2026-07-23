@@ -3,3 +3,5 @@ function showForm (formId) {
     document.getElementById(formId).classList.add("active");
 }
 /* Code optimization and minor alignment fixes */
+
+/* Code optimization and minor alignment fixes */
