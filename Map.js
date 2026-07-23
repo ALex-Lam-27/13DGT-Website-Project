@@ -29,3 +29,10 @@ const destinations = {
             "Start at the Main Entrance.",
 
             "Walk straight towards Administration.",
+
+            "Continue along the main pathway.",
+
+            "The Science Faculty is beside the L Block classrooms."
+
+        ]
+
