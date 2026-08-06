@@ -51,3 +51,14 @@
     margin-left: 250px;
     gap: 120px;
 }
+
+.navlink_container a {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-solid {
+    color: black;
+    text-decoration: none;
+    margin-left: 150px;
+    font-size: 21px;
