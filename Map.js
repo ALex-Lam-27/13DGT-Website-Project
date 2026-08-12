@@ -36,3 +36,11 @@ const destinations = {
 
         ]
 
+    },
+
+    careers: {
+
+        name: "Careers Hub",
+
+        directions: [
+
