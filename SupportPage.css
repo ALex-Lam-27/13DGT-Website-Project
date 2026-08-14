@@ -34,3 +34,6 @@ a {
     gap: 120px;
 }
 
+.navlink_container a {
+    color: black;
+    text-decoration: none;
