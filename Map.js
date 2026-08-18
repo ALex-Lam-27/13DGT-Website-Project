@@ -44,3 +44,13 @@ const destinations = {
 
         directions: [
 
+            "Start at the Main Entrance.",
+
+            "Walk towards Administration.",
+
+            "Continue straight ahead.",
+
+            "The Careers Hub is beside Student Reception."
+
+        ]
+
