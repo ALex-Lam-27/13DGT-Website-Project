@@ -61,3 +61,7 @@
 }
 
 .Home_intro h1 {
+    color: white;
+    font-size:  clamp(1rem, 4vw, 3rem);
+    font-weight: bold;
+    line-height: 1.2;
