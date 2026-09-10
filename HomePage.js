@@ -47,3 +47,5 @@ document.querySelector(".prev").addEventListener("click", prevSlide);
 
 setInterval(nextSlide,6000);
 /* Code optimization and minor alignment fixes */
+
+/* Code optimization and minor alignment fixes */
