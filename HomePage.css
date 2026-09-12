@@ -65,3 +65,11 @@
     font-size:  clamp(1rem, 4vw, 3rem);
     font-weight: bold;
     line-height: 1.2;
+    margin-left: 0px;
+}
+
+.Home_intro h1  span{
+    color: red;
+}
+
+.button_container{
