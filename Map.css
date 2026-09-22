@@ -80,3 +80,15 @@
     padding-left: 30px;
 }
 
+
+
+/* ===========================
+   LEFT PANEL
+=========================== */
+
+.left-panel { 
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
