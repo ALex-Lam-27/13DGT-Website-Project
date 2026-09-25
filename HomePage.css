@@ -80,3 +80,13 @@
 
 .explore_btn{
     background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.map_btn{
