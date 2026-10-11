@@ -46,3 +46,6 @@
 ========================================== */
 
 .guide-intro {
+    min-height: 330px;
+    padding: 60px 8%;
+    display: flex;
