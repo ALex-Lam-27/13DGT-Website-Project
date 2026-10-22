@@ -36,3 +36,105 @@
 
         <!-- ========== LEFT SIDE ========== -->
 
+        <section class="left-panel">
+
+            <!-- Search -->
+
+            <div class="search-card">
+                <h2>Find a Destination</h2>     
+
+                <select id="destinationSelect">
+
+                    <option value="">Select destination</option>
+                    <option value="library">Library</option>
+                    <option value="science">Science Faculty</option>
+                    <option value="careers">Careers Hub</option>
+                    <option value="gym">Gymnasium / Hall</option>
+                    <option value="canteen">Canteen</option>
+                    <option value="admin">Administration / Reception</option>
+                    <option value="international">International Office</option>
+                    <option value="study">C19 Study Room</option>
+                    <option value="whare">Whare</option>
+                    <option value="nblock">N Block</option>
+                </select>
+
+                <button onclick="showDirections()"> Get Directions </button>
+            </div>
+
+            <!-- Map -->
+
+            <div class="map-card">
+                <img src="Images/Map.jpeg" alt="Campus Map" class="campus-map">
+            </div>
+        </section>
+
+
+        <!-- ========== RIGHT SIDE ========== -->
+
+        <aside class="right-panel">
+
+            <!-- Directions -->
+
+            <div class="direction-card">
+
+                <h2 id="directionTitle"> Directions </h2>
+
+                <div class="start-point">
+                    <h3> Starting Point </h3>
+                    <p>Main Entrance<br>(Beside Mackillop Campus)</p>
+                </div>
+
+                <ol id="directionsList">
+                    <li>Select a destination.</li>
+                    <li>Click<strong> Get Directions</strong></li>
+                    <li>The directions will appear here.</li>
+                </ol>
+            </div>
+
+
+
+            <!-- Popular -->
+
+            <div class="popular-card">
+
+                <h2>Popular Places</h2>
+
+                <div
+                    class="popular-list"
+                    id="popularList">
+
+                    <button onclick="quickSelect('library')"> Library</button>
+                    <button onclick="quickSelect('science')"> Science Faculty</button>
+                    <button onclick="quickSelect('careers')"> Careers Hub</button>
+                    <button onclick="quickSelect('gym')"> Gymnasium / Hall</button>
+                    <button onclick="quickSelect('canteen')"> Canteen</button>
+                    <button onclick="quickSelect('admin')"> Administration / Reception</button>
+                    <button onclick="quickSelect('international')"> International Office</button>
+                    <button onclick="quickSelect('study')"> C19 Study Room</button>
+                    <button onclick="quickSelect('whare')"> Whare</button>
+                    <button onclick="quickSelect('nblock')"> N Block</button>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-left">
+            <p><i class="fa-solid fa-phone"></i> <a href="#">+64 7 347 8795</a></p>
+            <p><i class="fa-solid fa-envelope"></i> <a href="#">info@jpc.school.nz</a></p>
+            <p><i class="fa-solid fa-location-dot"></i> <a href="#">Whitworth Road, Utuhina, Rotorua 3015</a></p>
+        </div>
+
+        <div class="footer-right">
+            <img src="https://jpc.school.nz/wp-content/uploads/2023/05/JPC-Logo-Vector-horizontal-white-text-e1687320474923.png" alt="John Paul College logo">
+        </div>
+
+        <p class="copyright">John Paul College © 2026</p>
+    </footer>
+
+    <script src="Map.js"></script>
+
+</body>
+
+</html>

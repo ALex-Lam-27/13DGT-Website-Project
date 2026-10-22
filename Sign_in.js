@@ -2,6 +2,3 @@ function showForm (formId) {
     document.querySelectorAll(".form-box").forEach(form => form.classList.remove("active"));
     document.getElementById(formId).classList.add("active");
 }
-/* Code optimization and minor alignment fixes */
-
-/* Code optimization and minor alignment fixes */
